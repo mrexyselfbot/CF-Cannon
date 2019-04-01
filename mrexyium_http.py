@@ -514,6 +514,8 @@ def main():
     go = threading.Event()
     if is_protected_by_cf():
         print ("\n---------------------------------------------------------------------")
+        print ("MREXYIUM-HTTP - Made by Mrexy. Use for your own network.")
+        print ("Any other unlawful use is your responsibility.")
         print ("Target: ", args.host, " is protected by Cloudfalre.")
         print ("  Please wait 2mins for bypass calculation.   ")
         print ("---------------------------------------------------------------------")
@@ -529,6 +531,8 @@ def main():
     else:
         print ("\n---------------------------------------------------------------------")
         print ("Target: ", args.host, " is not protected by Cloudfalre.")
+        print ("MREXYIUM-HTTP - Made by Mrexy. Use for your own network.")
+        print ("Any other unlawful use is your responsibility.")
         print ("  Please wait 5 seconds for UA Generation.   ")
         print ("---------------------------------------------------------------------")
         for x in range(args.threads):
