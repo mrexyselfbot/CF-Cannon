@@ -1,7 +1,7 @@
-# CF-Cannon
-## CF-Cannon is a tool written in python to perform layer 7 stress test on your own server.
+# Mrexyium-HTTP
+## Mrexyium-HTTP is a tool written in python to perform layer 7 stress test on your own server.
 
-For CF-bypass you'll need a proxy list with very good connection and low latency to your server.
+For CF bypass you'll need a proxy list with very good connection and low latency to your server.
 
 *Third party proxy checker you may need:*
 https://github.com/maxmalysh/python-proxy-checker
@@ -36,5 +36,6 @@ ulimit -n 655350
 ### Proof of Power
 ![image](https://levyhsu.com/wp-content/uploads/2018/10/webwxgetmsgimg.jpeg)
 
-### Notice that:
-Each "ERROR:root:’http://abc.com’ returned an error. Could not collect tokens." indicates one proxy failure (cfscrape can’t access page though server)
+### Notice:
+Each "ERROR:root:’http://abc.com’ returned an error. Could not collect tokens."
+indicates one proxy failure (cfscrape can’t access page though server)
